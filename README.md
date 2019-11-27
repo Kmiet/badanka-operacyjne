@@ -10,6 +10,7 @@
 
 ### Configuration:
 The script needs config file to run in json format. Values:
+
 | variable | description |
 | --- | --- |
 |`c1`| Coefficient used in PSO algorythm - weight of the last velocity of a particle |
