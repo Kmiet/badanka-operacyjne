@@ -14,11 +14,11 @@ The script needs config file to run in json format. Values:
 | variable | description |
 | --- | --- |
 |`c1`| Coefficient used in PSO algorythm - weight of the last velocity of a particle |
-|`c2`| Coefficient used in PSO algorythm - weight of the best solution acheived by a particle |
-|`c3`| Coefficient used in PSO algorythm - weight of the best solution acheived by all particles |
+|`c2`| Coefficient used in PSO algorythm - weight of the best solution achieved by a particle |
+|`c3`| Coefficient used in PSO algorythm - weight of the best solution achieved by all particles |
 |`size`| Size of the square board |
 |`paths`| # of particles (path-looking instances) |
-|`maxlen`| Maximum lenght of the path |
+|`maxlen`| Maximum length of the path |
 |`iters`| Iterations, in which particles will try to find the best solution |
 |`coin_density`| Chance for a coin to appear on a random field |
 
@@ -26,7 +26,7 @@ The script needs config file to run in json format. Values:
 Run:
 
 ```
-python3 pso_without_walls.py -s 19686901 -o board.npy
+python3 pso.py -s 19686901 -o board.npy
 ```
 
 Config file:

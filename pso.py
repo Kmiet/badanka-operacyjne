@@ -3,9 +3,9 @@ import sys
 import json
 from optparse import OptionParser
 
-C1 = 1  # stala dla poprzedniej predkosci
-C2 = 0.8  # stala dla lokalnego rozwiazania
-C3 = 1  # stala dla globalnego rozwiazania
+C1 = 1      # stala dla poprzedniej predkosci
+C2 = 0.8    # stala dla lokalnego rozwiazania
+C3 = 1      # stala dla globalnego rozwiazania
 
 
 class Board:
