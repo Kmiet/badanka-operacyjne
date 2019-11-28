@@ -28,7 +28,8 @@ class Board:
             current_poz += self.move_mapping[move]
             if tuple(current_poz) not in visited:
                 visited.add(tuple(current_poz))
-                result += int(self.board[tuple(current_poz)])
+                if (0 <= current_poz[0] < self.shape[0]) and (0 <= current_poz[1] < self.shape[1]):
+                    result += int(self.board[tuple(current_poz)])
         return result
 
 
